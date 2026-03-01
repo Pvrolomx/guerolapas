@@ -1,10 +1,10 @@
 'use client';
-import { motion, useReducedMotion } from 'framer-motion';
+import { motion, useReducedMotion, type Variants } from 'framer-motion';
 import { ReactNode } from 'react';
 
-type Variant = 'fade-up' | 'fade-in' | 'slide-left' | 'slide-right' | 'scale-in';
+type VariantName = 'fade-up' | 'fade-in' | 'slide-left' | 'slide-right' | 'scale-in';
 
-const variants: Record<Variant, { hidden: object; visible: object }> = {
+const animationVariants: Record<VariantName, Variants> = {
   'fade-up': { hidden: { opacity: 0, y: 40 }, visible: { opacity: 1, y: 0 } },
   'fade-in': { hidden: { opacity: 0 }, visible: { opacity: 1 } },
   'slide-left': { hidden: { opacity: 0, x: -60 }, visible: { opacity: 1, x: 0 } },
@@ -20,13 +20,13 @@ export default function ScrollReveal({
   className = '',
 }: {
   children: ReactNode;
-  variant?: Variant;
+  variant?: VariantName;
   delay?: number;
   duration?: number;
   className?: string;
 }) {
   const prefersReduced = useReducedMotion();
-  const v = variants[variant];
+  const v = animationVariants[variant];
 
   return (
     <motion.div
