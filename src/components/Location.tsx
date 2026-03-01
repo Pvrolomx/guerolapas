@@ -3,8 +3,8 @@ import { useTranslations } from 'next-intl';
 import { MapPin, Clock, Navigation, Phone } from 'lucide-react';
 import ScrollReveal from './ScrollReveal';
 
-const LAT = 20.6252;
-const LNG = -105.2308;
+const LAT = 20.6235;
+const LNG = -105.2301;
 
 export default function Location() {
   const t = useTranslations('location');
@@ -60,7 +60,7 @@ export default function Location() {
         <ScrollReveal variant="slide-right" delay={0.2}>
           <div className="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
             <iframe
-              src={`https://maps.google.com/maps?q=${LAT},${LNG}&z=17&output=embed`}
+              src={`https://maps.google.com/maps?q=${LAT},${LNG}&z=18&output=embed`}
               width="100%"
               height="100%"
               style={{ border: 0 }}
