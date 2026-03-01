@@ -33,11 +33,13 @@
   },
   "location": {
     "heading": "Encuéntranos",
+    "address": "Calle Brasil 1438, Col. 5 de Diciembre, Puerto Vallarta, Jal. C.P. 48350",
     "description": "A 50 metros de la Unidad Deportiva Agustín Flores. Si no lo encuentras, pregunta por El Güero — todo mundo lo conoce.",
     "hours_title": "Horario",
-    "hours_weekdays": "Lunes a Sábado: 10:00 AM – 6:00 PM",
-    "hours_sunday": "Domingo: Cerrado (hasta el Güero descansa)",
-    "directions": "Cómo Llegar"
+    "hours_weekdays": "Martes a Domingo: 10:00 AM – 6:00 PM",
+    "hours_closed": "Lunes: Cerrado (hasta el Güero descansa)",
+    "directions": "Cómo Llegar",
+    "phone": "+52 1 322 244 1486"
   },
   "footer": {
     "tagline": "Street Food, World-Class Flavor.",

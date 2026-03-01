@@ -1,10 +1,10 @@
-'use client';
-import { useTranslations, useLocale } from 'next-intl';
-import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+\'use client\';
+import { useTranslations, useLocale } from \'next-intl\';
+import { useState, useEffect } from \'react\';
+import { motion, AnimatePresence } from \'framer-motion\';
 
 export default function WhatsAppButton() {
-  const t = useTranslations('whatsapp');
+  const t = useTranslations(\'whatsapp\');
   const locale = useLocale();
   const [visible, setVisible] = useState(false);
 
@@ -13,8 +13,8 @@ export default function WhatsAppButton() {
     return () => clearTimeout(timer);
   }, []);
 
-  const phone = '521XXXXXXXXXX';
-  const msg = encodeURIComponent(t('message'));
+  const phone = \'5213222441486\';
+  const msg = encodeURIComponent(t(\'message\'));
   const url = `https://wa.me/${phone}?text=${msg}`;
 
   return (
@@ -27,7 +27,7 @@ export default function WhatsAppButton() {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.5 }}
-          aria-label={t('aria')}
+          aria-label={t(\'aria\')}
           className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg shadow-green-500/30 hover:scale-110 transition-transform"
         >
           <motion.div
