@@ -17,12 +17,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: isEs
       ? 'El mejor marisco callejero de Puerto Vallarta. 15 años de sazón, tradición y sabor auténtico.'
       : 'The best street seafood in Puerto Vallarta. 15 years of authentic flavor and tradition.',
+    manifest: '/manifest.json',
     openGraph: {
       title: 'Mariscos El Güerolapas',
       description: 'Street Food, World-Class Flavor. Puerto Vallarta.',
       type: 'website',
       locale: isEs ? 'es_MX' : 'en_US',
       siteName: 'Mariscos El Güerolapas',
+    },
+    icons: {
+      icon: '/favicon.ico',
+      apple: '/apple-touch-icon.png',
     },
   };
 }
@@ -42,6 +47,9 @@ export default async function LocaleLayout({
     <html lang={locale} className="scroll-smooth">
       <head>
         <meta name="theme-color" content="#0A1628" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="font-body bg-navy text-white antialiased">
         <NextIntlClientProvider messages={messages}>
