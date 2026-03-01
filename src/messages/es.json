@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "title": "MARISCOS EL GÜEROLAPAS",
+    "subtitle": "15 años de sazón en las calles de Puerto Vallarta",
+    "cta": "Ver el menú",
+    "scroll": "Desliza para descubrir"
+  },
+  "story": {
+    "heading": "La Historia del Güero",
+    "counter_years": "años",
+    "counter_plates": "platillos servidos",
+    "counter_sazon": "sazón inigualable",
+    "p1": "Ramón Tello — mejor conocido como El Güerolapas — lleva más de 15 años haciendo magia con mariscos frescos en las calles de Puerto Vallarta.",
+    "p2": "Lo que empezó como un carrito improvisado se convirtió en uno de los secretos mejor guardados de la ciudad. Su receta: producto del día, preparación sin atajos, y una personalidad que convierte a cada cliente en amigo.",
+    "p3": "Aquí no hay reservaciones ni manteles blancos. Hay sazón de verdad, risas, y el mejor marisco de la calle."
+  },
+  "menu": {
+    "heading": "El Menú",
+    "filter_all": "Todo",
+    "filter_aguachiles": "Aguachiles",
+    "filter_ceviches": "Ceviches",
+    "filter_calientes": "Calientes",
+    "filter_especialidades": "Especialidades"
+  },
+  "testimonials": {
+    "heading": "Lo Que Dice la Gente",
+    "t1_quote": "Vienes por los mariscos, te quedas por el Güero. No hay mejor aguachile en Vallarta.",
+    "t1_author": "Carlos M., cliente desde 2015",
+    "t2_quote": "La primera vez que vine fue por recomendación. Ahora vengo cada semana. El ceviche negro es una obra de arte.",
+    "t2_author": "María Elena R., foodie local",
+    "t3_quote": "I found this place on a random walk. Best seafood I've had in Mexico, hands down. The owner is amazing.",
+    "t3_author": "Jake T., visitante de California"
+  },
+  "location": {
+    "heading": "Encuéntranos",
+    "description": "A 50 metros de la Unidad Deportiva Agustín Flores. Si no lo encuentras, pregunta por El Güero — todo mundo lo conoce.",
+    "hours_title": "Horario",
+    "hours_weekdays": "Lunes a Sábado: 10:00 AM – 6:00 PM",
+    "hours_sunday": "Domingo: Cerrado (hasta el Güero descansa)",
+    "directions": "Cómo Llegar"
+  },
+  "footer": {
+    "tagline": "Street Food, World-Class Flavor.",
+    "copyright": "© 2026 Mariscos El Güerolapas. Puerto Vallarta, Jalisco.",
+    "made_by": "Hecho por duendes.app 2026",
+    "easter": "La Máquina del Marisco"
+  },
+  "whatsapp": {
+    "message": "Hola Güero! Quiero hacer un pedido.",
+    "aria": "Contactar por WhatsApp"
+  },
+  "lang": {
+    "switch": "EN",
+    "aria": "Cambiar a inglés"
+  }
+}

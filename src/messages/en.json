@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "title": "MARISCOS EL GÜEROLAPAS",
+    "subtitle": "15 years of flavor on the streets of Puerto Vallarta",
+    "cta": "See the menu",
+    "scroll": "Scroll to discover"
+  },
+  "story": {
+    "heading": "The Story of El Güero",
+    "counter_years": "years",
+    "counter_plates": "plates served",
+    "counter_sazon": "unmatched flavor",
+    "p1": "Ramón Tello — better known as El Güerolapas — has been crafting seafood magic on the streets of Puerto Vallarta for over 15 years.",
+    "p2": "What started as a humble cart became one of the city's best-kept secrets. His recipe: catch of the day, no shortcuts, and a personality that turns every customer into a friend.",
+    "p3": "No reservations, no white tablecloths. Just real flavor, real laughs, and the best street seafood you'll ever taste."
+  },
+  "menu": {
+    "heading": "The Menu",
+    "filter_all": "All",
+    "filter_aguachiles": "Aguachiles",
+    "filter_ceviches": "Ceviches",
+    "filter_calientes": "Hot Dishes",
+    "filter_especialidades": "Specials"
+  },
+  "testimonials": {
+    "heading": "What People Say",
+    "t1_quote": "You come for the seafood, you stay for El Güero. Best aguachile in Vallarta, no contest.",
+    "t1_author": "Carlos M., regular since 2015",
+    "t2_quote": "First time was a friend's rec. Now I come every week. The black ceviche is a masterpiece.",
+    "t2_author": "María Elena R., local foodie",
+    "t3_quote": "I found this place on a random walk. Best seafood I've had in Mexico, hands down. The owner is amazing.",
+    "t3_author": "Jake T., visitor from California"
+  },
+  "location": {
+    "heading": "Find Us",
+    "description": "50 meters from the Unidad Deportiva Agustín Flores. If you can't find it, just ask for El Güero — everyone knows him.",
+    "hours_title": "Hours",
+    "hours_weekdays": "Monday to Saturday: 10:00 AM – 6:00 PM",
+    "hours_sunday": "Sunday: Closed (even El Güero needs rest)",
+    "directions": "Get Directions"
+  },
+  "footer": {
+    "tagline": "Street Food, World-Class Flavor.",
+    "copyright": "© 2026 Mariscos El Güerolapas. Puerto Vallarta, Jalisco.",
+    "made_by": "Made by duendes.app 2026",
+    "easter": "La Máquina del Marisco"
+  },
+  "whatsapp": {
+    "message": "Hi Güero! I'd like to place an order.",
+    "aria": "Contact via WhatsApp"
+  },
+  "lang": {
+    "switch": "ES",
+    "aria": "Switch to Spanish"
+  }
+}
