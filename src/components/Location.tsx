@@ -3,10 +3,11 @@ import { useTranslations } from 'next-intl';
 import { MapPin, Clock, Navigation, Phone } from 'lucide-react';
 import ScrollReveal from './ScrollReveal';
 
+const LAT = 20.6252;
+const LNG = -105.2308;
+
 export default function Location() {
   const t = useTranslations('location');
-
-  const mapsQuery = encodeURIComponent('Calle Brasil 1438, Col 5 de Diciembre, Puerto Vallarta, Jalisco 48350');
 
   return (
     <section className="bg-pearl py-24 px-6 sm:px-8 lg:px-12">
@@ -46,7 +47,7 @@ export default function Location() {
           </div>
 
           <a
-            href={`https://www.google.com/maps/search/?api=1&query=${mapsQuery}`}
+            href={`https://www.google.com/maps/search/?api=1&query=${LAT},${LNG}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 mt-8 bg-gold text-navy px-8 py-3 font-semibold uppercase tracking-wider text-sm hover:bg-gold/90 transition-colors rounded"
@@ -59,7 +60,7 @@ export default function Location() {
         <ScrollReveal variant="slide-right" delay={0.2}>
           <div className="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.8!2d-105.2353!3d20.6280!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDM3JzQwLjgiTiAxMDXCsDE0JzA3LjEiVw!5e0!3m2!1ses!2smx!4v1700000000000"
+              src={`https://maps.google.com/maps?q=${LAT},${LNG}&z=17&output=embed`}
               width="100%"
               height="100%"
               style={{ border: 0 }}
